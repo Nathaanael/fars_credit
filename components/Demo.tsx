@@ -91,6 +91,7 @@ export default function Demo() {
                     ? "bg-blue-600 text-white shadow-lg shadow-blue-200"
                     : "bg-slate-100 text-slate-600 hover:bg-blue-50 hover:text-blue-700"
                 }`}
+                suppressHydrationWarning
               >
                 {s.icon}
                 <span className="text-sm font-semibold">{s.label}</span>
@@ -169,6 +170,7 @@ export default function Demo() {
                     onClick={() => scroll('left')}
                     className="absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white text-slate-800 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
                     aria-label="Slide sebelumnya"
+                    suppressHydrationWarning
                   >
                     <ChevronLeft size={24} />
                   </button>
@@ -176,6 +178,7 @@ export default function Demo() {
                     onClick={() => scroll('right')}
                     className="absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white text-slate-800 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 focus:opacity-100 z-10"
                     aria-label="Slide selanjutnya"
+                    suppressHydrationWarning
                   >
                     <ChevronRight size={24} />
                   </button>

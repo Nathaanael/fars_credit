@@ -65,6 +65,7 @@ export default function CTA() {
                     onChange={(e) => setFormData({...formData, nama: e.target.value})}
                     placeholder="Nama lengkap"
                     className="w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                    suppressHydrationWarning
                   />
                 </div>
                 <div>
@@ -75,6 +76,7 @@ export default function CTA() {
                     onChange={(e) => setFormData({...formData, institusi: e.target.value})}
                     placeholder="BPR / Bank ..."
                     className="w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                    suppressHydrationWarning
                   />
                 </div>
                 <div>
@@ -85,6 +87,7 @@ export default function CTA() {
                     onChange={(e) => setFormData({...formData, email: e.target.value})}
                     placeholder="email@institusi.id"
                     className="w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                    suppressHydrationWarning
                   />
                 </div>
                 <div>
@@ -95,12 +98,14 @@ export default function CTA() {
                     onChange={(e) => setFormData({...formData, wa: e.target.value})}
                     placeholder="+62 ..."
                     className="w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                    suppressHydrationWarning
                   />
                 </div>
                 
                 <button 
                   onClick={handleWhatsApp}
                   className="w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all hover:-translate-y-0.5 shadow-lg shadow-[#25D366]/30 mt-2"
+                  suppressHydrationWarning
                 >
                   <MessageCircle size={18} />
                   Kirim via WhatsApp

@@ -1010,7 +1010,7 @@ function Features() {
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                     className: "gradient-text",
-                                    children: "BPR & Bank Anda"
+                                    children: "Industri Perbankan Anda"
                                 }, void 0, false, {
                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Features.tsx",
                                     lineNumber: 75,
@@ -2294,6 +2294,7 @@ function Demo() {
                                 screens.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                         onClick: ()=>setActive(s.id),
                                         className: `flex items-center gap-3 px-4 py-3.5 rounded-xl text-left transition-all whitespace-nowrap flex-shrink-0 lg:flex-shrink lg:whitespace-normal ${active === s.id ? "bg-blue-600 text-white shadow-lg shadow-blue-200" : "bg-slate-100 text-slate-600 hover:bg-blue-50 hover:text-blue-700"}`,
+                                        suppressHydrationWarning: true,
                                         children: [
                                             s.icon,
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -2301,7 +2302,7 @@ function Demo() {
                                                 children: s.label
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                lineNumber: 96,
+                                                lineNumber: 97,
                                                 columnNumber: 17
                                             }, this)
                                         ]
@@ -2318,7 +2319,7 @@ function Demo() {
                                             children: screen.title
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                            lineNumber: 101,
+                                            lineNumber: 102,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2326,13 +2327,13 @@ function Demo() {
                                             children: screen.desc
                                         }, void 0, false, {
                                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                            lineNumber: 102,
+                                            lineNumber: 103,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                    lineNumber: 100,
+                                    lineNumber: 101,
                                     columnNumber: 13
                                 }, this)
                             ]
@@ -2342,7 +2343,7 @@ function Demo() {
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                            className: "bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-inner min-h-[420px]",
+                            className: "bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-inner md:min-h-[420px]",
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                     className: "bg-[var(--navy)] px-5 py-3 flex items-center gap-3",
@@ -2354,27 +2355,27 @@ function Demo() {
                                                     className: "w-2.5 h-2.5 rounded-full bg-red-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                    lineNumber: 110,
+                                                    lineNumber: 111,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "w-2.5 h-2.5 rounded-full bg-yellow-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                    lineNumber: 111,
+                                                    lineNumber: 112,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                                     className: "w-2.5 h-2.5 rounded-full bg-green-400"
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                    lineNumber: 112,
+                                                    lineNumber: 113,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                            lineNumber: 109,
+                                            lineNumber: 110,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2385,95 +2386,97 @@ function Demo() {
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                            lineNumber: 114,
+                                            lineNumber: 115,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                    lineNumber: 108,
+                                    lineNumber: 109,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "relative group bg-slate-100 min-h-[420px]",
+                                    className: "relative group bg-slate-100 md:min-h-[420px]",
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                            ref: scrollRef,
-                                            className: "w-full h-full overflow-x-auto overflow-y-hidden flex flex-row snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']",
-                                            children: 'video' in screen && screen.video ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
-                                                src: screen.video,
-                                                controls: true,
-                                                autoPlay: true,
-                                                muted: true,
-                                                loop: true,
-                                                className: "w-full min-w-full h-auto object-cover snap-center flex-shrink-0",
-                                                children: "Browser Anda tidak mendukung tag video."
-                                            }, void 0, false, {
+                                        screens.map((s)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                                ref: active === s.id ? scrollRef : null,
+                                                className: `w-full h-full overflow-x-auto overflow-y-hidden flex-row snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] ${active === s.id ? 'flex' : 'hidden'}`,
+                                                children: 'video' in s && s.video ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("video", {
+                                                    src: s.video,
+                                                    controls: true,
+                                                    autoPlay: true,
+                                                    muted: true,
+                                                    loop: true,
+                                                    className: "w-full min-w-full h-auto object-cover snap-center flex-shrink-0",
+                                                    children: "Browser Anda tidak mendukung tag video."
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
+                                                    lineNumber: 129,
+                                                    columnNumber: 21
+                                                }, this) : 'images' in s && Array.isArray(s.images) && s.images.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
+                                                    children: s.images.map((imgSrc, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                            src: imgSrc,
+                                                            alt: `${s.title} - Slide ${idx + 1}`,
+                                                            className: "w-full min-w-full h-auto object-cover block snap-center flex-shrink-0 border-r border-slate-200 last:border-0",
+                                                            onError: (e)=>{
+                                                                e.target.src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Gambar+${idx + 1}+Tidak+Ditemukan`;
+                                                            }
+                                                        }, idx, false, {
+                                                            fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
+                                                            lineNumber: 142,
+                                                            columnNumber: 25
+                                                        }, this))
+                                                }, void 0, false) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
+                                                    src: s.image,
+                                                    alt: s.title,
+                                                    className: "w-full min-w-full h-auto object-cover block snap-center flex-shrink-0",
+                                                    onError: (e)=>{
+                                                        e.target.src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Screenshot+${s.label.replace(' ', '+')}`;
+                                                    }
+                                                }, void 0, false, {
+                                                    fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
+                                                    lineNumber: 154,
+                                                    columnNumber: 21
+                                                }, this)
+                                            }, s.id, false, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
                                                 lineNumber: 123,
-                                                columnNumber: 19
-                                            }, this) : 'images' in screen && Array.isArray(screen.images) && screen.images.length > 0 ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
-                                                children: screen.images.map((imgSrc, idx)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                        src: imgSrc,
-                                                        alt: `${screen.title} - Slide ${idx + 1}`,
-                                                        className: "w-full min-w-full h-auto object-cover block snap-center flex-shrink-0 border-r border-slate-200 last:border-0",
-                                                        onError: (e)=>{
-                                                            e.target.src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Gambar+${idx + 1}+Tidak+Ditemukan`;
-                                                        }
-                                                    }, idx, false, {
-                                                        fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                        lineNumber: 136,
-                                                        columnNumber: 23
-                                                    }, this))
-                                            }, void 0, false) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("img", {
-                                                src: screen.image,
-                                                alt: screen.title,
-                                                className: "w-full min-w-full h-auto object-cover block snap-center flex-shrink-0",
-                                                onError: (e)=>{
-                                                    e.target.src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Screenshot+${screen.label.replace(' ', '+')}`;
-                                                }
-                                            }, void 0, false, {
-                                                fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                lineNumber: 148,
-                                                columnNumber: 19
-                                            }, this)
-                                        }, void 0, false, {
-                                            fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                            lineNumber: 121,
-                                            columnNumber: 15
-                                        }, this),
+                                                columnNumber: 17
+                                            }, this)),
                                         'images' in screen && Array.isArray(screen.images) && screen.images.length > 1 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
                                             children: [
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>scroll('left'),
                                                     className: "absolute left-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white text-slate-800 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 focus:opacity-100 z-10",
                                                     "aria-label": "Slide sebelumnya",
+                                                    suppressHydrationWarning: true,
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$left$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronLeft$3e$__["ChevronLeft"], {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                        lineNumber: 167,
+                                                        lineNumber: 175,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                    lineNumber: 162,
+                                                    lineNumber: 169,
                                                     columnNumber: 19
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                     onClick: ()=>scroll('right'),
                                                     className: "absolute right-4 top-1/2 -translate-y-1/2 w-10 h-10 bg-white/90 hover:bg-white text-slate-800 rounded-full flex items-center justify-center shadow-xl backdrop-blur-sm transition-all opacity-0 group-hover:opacity-100 focus:opacity-100 z-10",
                                                     "aria-label": "Slide selanjutnya",
+                                                    suppressHydrationWarning: true,
                                                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$right$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronRight$3e$__["ChevronRight"], {
                                                         size: 24
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 183,
                                                         columnNumber: 21
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                                    lineNumber: 169,
+                                                    lineNumber: 177,
                                                     columnNumber: 19
                                                 }, this)
                                             ]
@@ -2481,13 +2484,13 @@ function Demo() {
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                                    lineNumber: 118,
+                                    lineNumber: 119,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                            lineNumber: 107,
+                            lineNumber: 108,
                             columnNumber: 11
                         }, this)
                     ]
@@ -2504,7 +2507,7 @@ function Demo() {
                             children: "Jelajahi Lebih Dalam"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                            lineNumber: 184,
+                            lineNumber: 193,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h3", {
@@ -2512,7 +2515,7 @@ function Demo() {
                             children: "Untuk fitur lebih lengkap, langsung jadwalkan demo"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                            lineNumber: 187,
+                            lineNumber: 196,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2520,7 +2523,7 @@ function Demo() {
                             children: "Kami akan mendemonstrasikan secara langsung bagaimana FARS dapat disesuaikan dengan alur kerja (workflow) spesifik di institusi Anda."
                         }, void 0, false, {
                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                            lineNumber: 190,
+                            lineNumber: 199,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("a", {
@@ -2529,13 +2532,13 @@ function Demo() {
                             children: "Jadwalkan Demo Sekarang"
                         }, void 0, false, {
                             fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                            lineNumber: 193,
+                            lineNumber: 202,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/Demo.tsx",
-                    lineNumber: 183,
+                    lineNumber: 192,
                     columnNumber: 9
                 }, this)
             ]
@@ -2727,7 +2730,8 @@ function CTA() {
                                                                 nama: e.target.value
                                                             }),
                                                         placeholder: "Nama lengkap",
-                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300",
+                                                        suppressHydrationWarning: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
                                                         lineNumber: 62,
@@ -2746,7 +2750,7 @@ function CTA() {
                                                         children: "Nama Institusi"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 71,
+                                                        lineNumber: 72,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2757,16 +2761,17 @@ function CTA() {
                                                                 institusi: e.target.value
                                                             }),
                                                         placeholder: "BPR / Bank ...",
-                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300",
+                                                        suppressHydrationWarning: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 72,
+                                                        lineNumber: 73,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                lineNumber: 70,
+                                                lineNumber: 71,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2776,7 +2781,7 @@ function CTA() {
                                                         children: "Email Kerja"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 81,
+                                                        lineNumber: 83,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2787,16 +2792,17 @@ function CTA() {
                                                                 email: e.target.value
                                                             }),
                                                         placeholder: "email@institusi.id",
-                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300",
+                                                        suppressHydrationWarning: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 82,
+                                                        lineNumber: 84,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                lineNumber: 80,
+                                                lineNumber: 82,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -2806,7 +2812,7 @@ function CTA() {
                                                         children: "No. WhatsApp"
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 91,
+                                                        lineNumber: 94,
                                                         columnNumber: 19
                                                     }, this),
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("input", {
@@ -2817,34 +2823,36 @@ function CTA() {
                                                                 wa: e.target.value
                                                             }),
                                                         placeholder: "+62 ...",
-                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300"
+                                                        className: "w-full h-10 border border-slate-200 rounded-xl px-3 text-sm focus:outline-none focus:border-green-400 focus:ring-2 focus:ring-green-100 placeholder:text-slate-300",
+                                                        suppressHydrationWarning: true
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 92,
+                                                        lineNumber: 95,
                                                         columnNumber: 19
                                                     }, this)
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                lineNumber: 90,
+                                                lineNumber: 93,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                                 onClick: handleWhatsApp,
                                                 className: "w-full bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-3.5 rounded-xl flex items-center justify-center gap-2 transition-all hover:-translate-y-0.5 shadow-lg shadow-[#25D366]/30 mt-2",
+                                                suppressHydrationWarning: true,
                                                 children: [
                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$message$2d$circle$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__$3c$export__default__as__MessageCircle$3e$__["MessageCircle"], {
                                                         size: 18
                                                     }, void 0, false, {
                                                         fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                        lineNumber: 105,
+                                                        lineNumber: 110,
                                                         columnNumber: 19
                                                     }, this),
                                                     "Kirim via WhatsApp"
                                                 ]
                                             }, void 0, true, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                lineNumber: 101,
+                                                lineNumber: 105,
                                                 columnNumber: 17
                                             }, this),
                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Documents$2f$Proyek__2026$2f$BPR$2f$fars$2d$landing$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -2852,7 +2860,7 @@ function CTA() {
                                                 children: "Gratis. Tanpa komitmen. Kami hubungi dalam 1×24 jam."
                                             }, void 0, false, {
                                                 fileName: "[project]/Documents/Proyek 2026/BPR/fars-landing/components/CTA.tsx",
-                                                lineNumber: 108,
+                                                lineNumber: 113,
                                                 columnNumber: 17
                                             }, this)
                                         ]

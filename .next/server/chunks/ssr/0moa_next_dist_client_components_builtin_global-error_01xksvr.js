@@ -1,0 +1,3 @@
+module.exports=[5177,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(85606);a.n(d("[project]/Documents/Proyek 2026/BPR/fars-landing/node_modules/next/dist/client/components/builtin/global-error.js <module evaluation>"))},22635,(a,b,c)=>{let{createClientModuleProxy:d}=a.r(85606);a.n(d("[project]/Documents/Proyek 2026/BPR/fars-landing/node_modules/next/dist/client/components/builtin/global-error.js"))},76200,a=>{"use strict";a.i(5177);var b=a.i(22635);a.n(b)},654,a=>{a.n(a.i(76200))}];
+
+//# sourceMappingURL=0moa_next_dist_client_components_builtin_global-error_01xksvr.js.map

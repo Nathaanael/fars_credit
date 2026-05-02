@@ -72,7 +72,7 @@ export default function Features() {
           <span className="text-xs font-bold uppercase tracking-widest text-blue-600">Fitur Unggulan</span>
           <h2 className="text-4xl md:text-5xl font-black text-[var(--navy)] mt-3 mb-4">
             Semua yang Dibutuhkan<br />
-            <span className="gradient-text">BPR & Bank Anda</span>
+            <span className="gradient-text">Industri Perbankan Anda</span>
           </h2>
           <p className="text-lg text-slate-500 max-w-xl mx-auto">
             Dirancang khusus untuk kebutuhan kredit bank perkreditan rakyat dan bank kecil menengah Indonesia.

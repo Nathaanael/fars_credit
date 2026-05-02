@@ -104,7 +104,7 @@ export default function Demo() {
           </div>
 
           {/* Screen */}
-          <div className="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-inner min-h-[420px]">
+          <div className="bg-slate-50 rounded-3xl border border-slate-200 overflow-hidden shadow-inner md:min-h-[420px]">
             <div className="bg-[var(--navy)] px-5 py-3 flex items-center gap-3">
               <div className="flex gap-1.5">
                 <span className="w-2.5 h-2.5 rounded-full bg-red-400" />
@@ -115,7 +115,7 @@ export default function Demo() {
                 https://app.fars.id/{active}
               </div>
             </div>
-            <div className="relative group bg-slate-100 min-h-[420px]">
+            <div className="relative group bg-slate-100 md:min-h-[420px]">
               
               {/* Scrollable Containers */}
               {screens.map((s) => (

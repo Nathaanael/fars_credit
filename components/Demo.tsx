@@ -117,44 +117,50 @@ export default function Demo() {
             </div>
             <div className="relative group bg-slate-100 min-h-[420px]">
               
-              {/* Scrollable Container */}
-              <div ref={scrollRef} className="w-full h-full overflow-x-auto overflow-y-hidden flex flex-row snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none']">
-                {'video' in screen && screen.video ? (
-                  <video 
-                    src={screen.video} 
-                    controls 
-                    autoPlay 
-                    muted 
-                    loop
-                    className="w-full min-w-full h-auto object-cover snap-center flex-shrink-0"
-                  >
-                    Browser Anda tidak mendukung tag video.
-                  </video>
-                ) : ('images' in screen && Array.isArray(screen.images) && screen.images.length > 0) ? (
-                  <>
-                    {screen.images.map((imgSrc, idx) => (
-                      <img 
-                        key={idx}
-                        src={imgSrc} 
-                        alt={`${screen.title} - Slide ${idx + 1}`} 
-                        className="w-full min-w-full h-auto object-cover block snap-center flex-shrink-0 border-r border-slate-200 last:border-0"
-                        onError={(e) => {
-                          (e.target as HTMLImageElement).src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Gambar+${idx+1}+Tidak+Ditemukan`;
-                        }}
-                      />
-                    ))}
-                  </>
-                ) : (
-                  <img 
-                    src={screen.image as string} 
-                    alt={screen.title} 
-                    className="w-full min-w-full h-auto object-cover block snap-center flex-shrink-0"
-                    onError={(e) => {
-                      (e.target as HTMLImageElement).src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Screenshot+${screen.label.replace(' ', '+')}`;
-                    }}
-                  />
-                )}
-              </div>
+              {/* Scrollable Containers */}
+              {screens.map((s) => (
+                <div 
+                  key={s.id}
+                  ref={active === s.id ? scrollRef : null} 
+                  className={`w-full h-full overflow-x-auto overflow-y-hidden flex-row snap-x snap-mandatory scroll-smooth [&::-webkit-scrollbar]:hidden [-ms-overflow-style:'none'] [scrollbar-width:'none'] ${active === s.id ? 'flex' : 'hidden'}`}
+                >
+                  {'video' in s && s.video ? (
+                    <video 
+                      src={s.video} 
+                      controls 
+                      autoPlay 
+                      muted 
+                      loop
+                      className="w-full min-w-full h-auto object-cover snap-center flex-shrink-0"
+                    >
+                      Browser Anda tidak mendukung tag video.
+                    </video>
+                  ) : ('images' in s && Array.isArray(s.images) && s.images.length > 0) ? (
+                    <>
+                      {s.images.map((imgSrc, idx) => (
+                        <img 
+                          key={idx}
+                          src={imgSrc} 
+                          alt={`${s.title} - Slide ${idx + 1}`} 
+                          className="w-full min-w-full h-auto object-cover block snap-center flex-shrink-0 border-r border-slate-200 last:border-0"
+                          onError={(e) => {
+                            (e.target as HTMLImageElement).src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Gambar+${idx+1}+Tidak+Ditemukan`;
+                          }}
+                        />
+                      ))}
+                    </>
+                  ) : (
+                    <img 
+                      src={s.image as string} 
+                      alt={s.title} 
+                      className="w-full min-w-full h-auto object-cover block snap-center flex-shrink-0"
+                      onError={(e) => {
+                        (e.target as HTMLImageElement).src = `https://placehold.co/800x500/e2e8f0/475569?font=montserrat&text=Screenshot+${s.label.replace(' ', '+')}`;
+                      }}
+                    />
+                  )}
+                </div>
+              ))}
 
               {/* Navigation Arrows for Multiple Images */}
               {('images' in screen && Array.isArray(screen.images) && screen.images.length > 1) && (

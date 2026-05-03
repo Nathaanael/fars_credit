@@ -13,16 +13,26 @@ export default function Footer() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-6 text-sm text-blue-300">
-          {["Fitur", "Workflow", "Keunggulan", "Target", "Demo", "Kontak"].map((l) => (
-            <a key={l} href={`#${l.toLowerCase()}`} className="hover:text-white transition-colors">
-              {l}
+          {[
+            { label: "UVP", href: "uvp" },
+            { label: "Workflow", href: "workflow" },
+            { label: "Benchmarking", href: "benchmarking" },
+            { label: "Business Challenges", href: "challenges" }, // ini yang beda
+            { label: "Demo", href: "demo" },
+            { label: "Kontak", href: "kontak" },
+          ].map((item) => (
+            <a
+              key={item.label}
+              href={`#${item.href}`}
+              className="hover:text-white transition-colors"
+            >
+              {item.label}
             </a>
           ))}
         </div>
 
         <p className="text-blue-500 text-xs text-center md:text-right">
-          © 2025 FARS. Dilindugni hak cipta.<br />
-          <span className="text-blue-600">Dibuat untuk perbankan Indonesia.</span>
+          © {new Date().getFullYear()} FARS. Dilindungi hak cipta.<br />
         </p>
       </div>
     </footer>

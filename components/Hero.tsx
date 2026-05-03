@@ -2,8 +2,8 @@
 import { ArrowRight, CheckCircle2, TrendingUp, Shield, Clock } from "lucide-react";
 
 const stats = [
-  { num: "80%", label: "Lebih Cepat Proses" },
-  { num: "0 Kertas", label: "Full Digitalisasi" },
+  { num: "SLA", label: "Tracking Timeline" },
+  { num: "Workflow ", label: "Dashboard Monitoring System" },
   { num: "Role Layer", label: "Approval Terstruktur" },
   { num: "Real-time", label: "Tracking Status" },
 ];
@@ -31,17 +31,16 @@ export default function Hero() {
           <div>
             <div className="inline-flex items-center gap-2 bg-blue-50 border border-blue-200 text-blue-700 text-xs font-bold px-4 py-2 rounded-full mb-6 uppercase tracking-widest">
               <span className="w-2 h-2 bg-blue-500 rounded-full animate-pulse" />
-              Solusi Perbankan Digital Indonesia
+              Loan Processing System
             </div>
 
             <h1 className="text-4xl sm:text-5xl xl:text-6xl font-black text-[var(--navy)] leading-[1.05] mb-6 tracking-tight">
-              Digitalisasi{" "}
-              <span className="gradient-text">Kredit Perbankan</span>{" "}
-              dari A sampai Z
+              Integrated{" "}
+              <span className="gradient-text">Loan Processing System</span>{" "}
             </h1>
 
-            <p className="text-lg text-slate-500 leading-relaxed mb-8 max-w-xl">
-              FARS — Financing Application & Review System mengotomatisasi seluruh alur pengajuan kredit: dari akuisisi nasabah oleh marketing hingga persetujuan Direktur Utama, dalam satu platform terintegrasi.
+            <p className="text-lg text-slate-500 leading-relaxed mb-8 max-w-xl text-justify">
+              <strong>FARS - Financing Application & Review System</strong> adalah platform digital loan processing yang dibangun secara end-to-end, mulai dari pengajuan oleh marketing hingga keputusan akhir dengan mengintegrasikan workflow dan dokumen dalam satu sistem yang terstruktur guna meningkatkan efisiensi, transparansi, serta akurasi dalam proses analisis dan pengambilan keputusan pembiayaan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">
@@ -61,7 +60,7 @@ export default function Hero() {
             </div>
 
             {/* Trust badges */}
-            <div className="flex flex-wrap gap-4">
+            {/* <div className="flex flex-wrap gap-4">
               {[
                 { icon: <Shield size={14} />, text: "Dipercaya Bank" },
                 { icon: <CheckCircle2 size={14} />, text: "SLIK" },
@@ -72,7 +71,7 @@ export default function Hero() {
                   {b.text}
                 </div>
               ))}
-            </div>
+            </div> */}
           </div>
 
           {/* Right — Dashboard mockup */}
@@ -102,7 +101,7 @@ export default function Hero() {
         <div className="mt-20 grid grid-cols-2 md:grid-cols-4 gap-6">
           {stats.map((s) => (
             <div key={s.label} className="text-center p-5 bg-white rounded-2xl border border-blue-100 shadow-sm hover:shadow-md hover:-translate-y-1 transition-all">
-              <p className="text-2xl font-black text-blue-700 mb-1">{s.num}</p>
+              <p className="text-base font-black text-blue-700 mb-1">{s.num}</p>
               <p className="text-xs font-semibold text-slate-500 uppercase tracking-wide">{s.label}</p>
             </div>
           ))}

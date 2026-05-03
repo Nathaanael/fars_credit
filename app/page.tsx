@@ -1,9 +1,9 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
-import Features from "@/components/Features";
+import UVP from "@/components/UVP";
 import Workflow from "@/components/Workflow";
-import Comparison from "@/components/Comparison";
-import Target from "@/components/Target";
+import Benchmarking from "@/components/Benchmarking";
+import Challenge from "@/components/Challenge";
 import Demo from "@/components/Demo";
 import CTA from "@/components/CTA";
 import Footer from "@/components/Footer";
@@ -13,10 +13,10 @@ export default function Home() {
     <main>
       <Navbar />
       <Hero />
-      <Features />
+      <UVP />
       <Workflow />
-      <Comparison />
-      <Target />
+      <Benchmarking />
+      <Challenge />
       <Demo />
       <CTA />
       <Footer />

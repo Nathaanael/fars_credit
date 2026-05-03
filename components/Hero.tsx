@@ -40,7 +40,7 @@ export default function Hero() {
             </h1>
 
             <p className="text-lg text-slate-500 leading-relaxed mb-8 max-w-xl text-justify">
-              <strong>FARS - Financing Application & Review System</strong> adalah platform digital loan processing yang dibangun secara end-to-end, mulai dari pengajuan oleh marketing hingga keputusan akhir dengan mengintegrasikan workflow dan dokumen dalam satu sistem yang terstruktur guna meningkatkan efisiensi, transparansi, serta akurasi dalam proses analisis dan pengambilan keputusan pembiayaan.
+              <strong>FARS - Financing Application Registration System</strong> adalah platform digital loan processing yang dibangun secara end-to-end, mulai dari pengajuan oleh marketing hingga keputusan akhir dengan mengintegrasikan workflow dan dokumen dalam satu sistem yang terstruktur guna meningkatkan efisiensi, transparansi, serta akurasi dalam proses analisis dan pengambilan keputusan pembiayaan.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 mb-12">

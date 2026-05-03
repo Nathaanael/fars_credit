@@ -8,7 +8,7 @@ export default function Footer() {
           </div>
           <div>
             <span className="text-white font-black text-base" style={{ fontFamily: 'Sora, sans-serif' }}>FARS</span>
-            <p className="text-blue-400 text-[10px] font-medium -mt-0.5">Financing Application & Review System</p>
+            <p className="text-blue-400 text-[10px] font-medium -mt-0.5">Financing Application Registration System</p>
           </div>
         </div>
 
